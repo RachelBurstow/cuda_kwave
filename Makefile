@@ -89,7 +89,7 @@ LINKING = SEMI
 # Set up paths: If using modules, the paths are set up automatically,
 #               otherwise, set paths manually
 CUDA_DIR = $(CUDA_HOME)
-HDF5_DIR = $(EBROOTHDF5)
+HDF5_DIR = /usr/include/hdf5/serial
 ZLIB_DIR = $(EBROOTZLIB)
 SZIP_DIR = $(EBROOTSZIP)
 
